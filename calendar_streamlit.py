@@ -3,7 +3,7 @@ import pandas as pd
 from streamlit_calendar import calendar
 
 # Načteme data
-df = pd.read_csv("svatky_de_2025_final.csv")
+df = pd.read_csv("final_IMPORT_2025.csv")
 
 st.title("🇩🇪 Německé svátky 2025")
 
@@ -34,3 +34,4 @@ st.download_button(
     file_name='svatky_de_2025_final.csv',
     mime='text/csv'
 )
+
